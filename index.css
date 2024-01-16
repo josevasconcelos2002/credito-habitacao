@@ -25,7 +25,7 @@ body {
     color: white;
 }
 
-.hero h1:hover, .hero p:hover{
+.hero h1:hover, .hero p:hover, .list-item:hover{
     color: #6a5905;
     transition: 0.5s;
 }
@@ -75,7 +75,14 @@ body {
     transition: 0.5s;
 }
 
-
+.list-item{
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .label-container {
     padding: 10px;
